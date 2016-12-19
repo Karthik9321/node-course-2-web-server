@@ -22,7 +22,9 @@ app.use((req,res,next)=>{
     
 });
 
-
+/*app.use((rew,res,next)=>{
+   res.render('maintenance.hbs'); 
+});*/
 
 app.get('/', (req,res)=>{
     res.render('home.hbs',{
